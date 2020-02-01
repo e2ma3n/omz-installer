@@ -30,7 +30,7 @@ function install {
 
 which sudo &> /dev/null
 if [ "$?" = "0" ] ; then
-    sudo -v &> /dev/null
+    getent group sudo | grep $USER &> /dev/null
     if [ "$?" = "0" ] ; then
         sudo apt-get update
         sudo apt-get -y dist-upgrade
