@@ -10,7 +10,7 @@
 
 apt-get update
 apt-get -y dist-upgrade
-apt install zsh powerline fonts-powerline
+apt install -y zsh powerline fonts-powerline
 if [ "$?" = "0" ] ; then
     git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
     cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
