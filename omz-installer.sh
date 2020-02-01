@@ -22,7 +22,7 @@ function install {
         git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "$HOME/.zsh-syntax-highlighting" --depth 1
         echo "source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> "$HOME/.zshrc"
         echo "[>] Done"
-        . $HOME/.zshrc
+        source $HOME/.zshrc
     else
         echo "[!] Sorry, can not connect to github.com"
     fi
