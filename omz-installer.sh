@@ -5,7 +5,7 @@
 # Website : http://www.homayouni.info
 # License : GPL v2.0
 # Last update : 01-February-2020_17:57:08
-# Oh My Zsh Installer v7.0 - [Install Oh My Zsh automatically]
+# Oh My Zsh Installer v1.0 - [Install Oh My Zsh automatically]
 #--------------------------------------------------------------#
 
 function install {
