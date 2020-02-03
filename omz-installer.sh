@@ -4,7 +4,7 @@
 # Email : e2ma3n@Gmail.com
 # Website : http://www.homayouni.info
 # License : GPL v2.0
-# Last update : Mon 03 Feb 2020 10:24:15 AM +0330
+# Last update : Mon 03 Feb 2020 10:25:57 AM +0330
 # Oh My Zsh Installer v1.0 - [Install Oh My Zsh automatically]
 #--------------------------------------------------------------#
 
